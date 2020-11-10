@@ -1,0 +1,153 @@
+/* global css*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mycenter{
+    display: block;
+    margin: 0px auto;
+}
+/* header section */
+#hader {
+    background: url(../images/banner-img.png) no-repeat;
+    background-size: cover;
+    padding: 15px 0px;
+}
+.head-1 {
+    padding-top: 30px;
+}
+/* contact box */
+.conus-s {
+    padding: 30px 0px 30px 0px;
+}
+.conus {
+    float: right;
+    background-color: #445ED2;
+    color: #fff;
+    border: none;
+}
+/* headr button */
+.gaq{
+    background: #445ED2;
+    color: #fff;
+    border: none;
+}
+.emrgncy {
+    padding: 210px 0px 189px 0px;
+}
+.emrgncy h1{
+    padding: 15px 0px;
+    color: #fff;
+}
+/* content section 1 */
+#content1{
+    background-color: #F7FAFB;
+    padding: 35px 0px;
+}
+.content1s p {
+    color: #898B8B;
+    padding: 35px 0px 0px 0px;
+    text-align: center;
+}
+/* small icon section */
+.smcc {
+    padding: 35px 0px 0px 0px;
+}
+.smcc img{
+    display: block;
+    margin: 0 auto;
+}
+.smcc h4 {
+    text-align: center;
+    padding-top: 25px;
+}
+.smcc p {
+    text-align: center;
+    padding-top: 15px;
+}
+.btn-cons1 {
+    padding-top: 35px;
+}
+/* content 2 */
+#content2 {
+    padding: 35px 0px;
+}
+#content2>div>div>div>h1{
+    padding-top: 15px;
+}
+.con-2s>div>div>img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.con-2s > div > div > p {
+    text-align: center;
+    padding-top: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+/* sub footer section */
+#subfooter {
+    background: url(../images/banner-img-2.png) no-repeat;
+    background-size: cover;
+    padding: 155px 0px;
+}
+#subfooter > div > div > div > h1 {
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 2px -1px 2px #000;
+}
+/* footer section */
+#footer > div > div > div > p {
+    padding: 35px 0px;
+}
+#copy{
+    background-color: #F7FAFB;
+    color: #474646;
+    padding: 15px 0px;
+}
+
+/* Media Query */
+@media (max-width: 990px){
+    .conus,.logo{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .conus-s{
+        padding: 25px 0px 8px 0px;
+    }
+    .head-1{
+        padding-top: 10px;
+    }
+    .emrgncy {
+    padding: 0px 0px 15px 0px;
+    }
+    #content1 {
+    padding: 15px 0px;
+    }
+    .emrgncy h1 {
+    padding: 5px 0px;
+    font-size: 18px;
+    width: 40%;
+    margin: 0 auto;
+    }
+
+    /* start media for 768px tabla */
+    @media (max-width: 768px){
+        .emrgncy h1 {
+            width: 35%;
+            font-size: 16px;
+        }
+
+        /* start for 320px or 480px mobile vertion */
+        @media (max-width: 480px){
+            .emrgncy h1 {
+                font-size: 14px;
+            }
+        /* 320px or 480px emd */   
+        }
+    /* 768px end */
+    }
+/* 990px end */   
+}
